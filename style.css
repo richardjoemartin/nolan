@@ -1,0 +1,219 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+}
+nav{
+    
+    opacity: 0.9;
+    z-index: 5;
+    background-color:rgb(5, 22, 28);box-shadow:10px 10px 60px;
+    text-shadow:1px 1px 8px rgb(103, 120, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    right: 0;
+}
+nav ul
+{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+video
+{
+    min-width:100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+.overlay
+{
+    position: absolute;
+    top: 360px;
+    left: 28%;
+
+}
+.overlay h1{
+    text-shadow: 5px 5px 5px black;
+}
+
+h1{
+    color: rgb(238, 240, 249);
+    text-shadow: 5px 5px 0px black;
+    font-size: 50px;
+    opacity: 0.3;
+}
+h1:hover
+{
+    color: aqua;
+}
+span{
+    
+    color: rgb(156, 156, 186);
+    font-size: 33px;
+    margin: 1px;
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#home::before{
+    content:  "";
+    background-image: url(./wp1985242.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    opacity:0.8;
+}
+.main
+{
+    border: 2px ridge rgba(0, 7, 10, 0.596);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 168px;
+    height: 140px;
+    top: 1037px;
+    left: 14.8%;
+    box-shadow: 8px 5px 7px ;
+}
+.intro h4{font-family: 'Acme', sans-serif;}
+
+.pic
+{
+    display: flex;
+    
+}
+.pic img{
+   box-shadow: 4px 4px 30px rgb(35, 105, 122);
+    border-radius: 50%;
+
+}
+.pic p{
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    margin: 12px;
+    font-size: 19px;
+}
+.pic,h3{
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+
+}
+h4
+{
+    color: rgb(9, 9, 18);
+    text-shadow: 1px 1px 1px rgb(78, 29, 29);
+    
+}
+h3{
+    color:rgba(69, 136, 149, 0.411);
+    text-shadow: 3px 3px 1px rgb(21, 38, 39);
+
+}
+h3:hover
+{
+    text-shadow: 2px 2px  rgb(228, 27, 27);
+    text-decoration: underline;
+}
+.gallery
+{
+    justify-content:center;
+    margin-left:23%;
+
+}
+
+.row
+{   align-content: justify;
+    display: flex;
+    width:100%;
+    margin-left: 2px;
+}
+
+.col
+{text-align: justify;
+    padding: 4px;
+    justify-content: center;
+    width: 610px;
+    height: 860px;
+    border: 7px inset rgb(28, 64, 61);
+    margin: 20px;
+    background:linear-gradient(to top, rgba(69, 136, 149, 0.67)50%,rgb(227, 224, 233)50%);
+    background-size: 100% 200%;
+    transition: all 5.4s;
+    border-radius: 6%;
+    box-shadow:1px 1px 12px  rgb(60, 117, 178)
+}
+
+.col:hover
+{    background-position: left bottom;
+    border: none;
+    box-shadow:8px 9px 30px  rgba(241, 16, 16, 0.411);
+}
+.col img
+{
+    width: 100%;
+    border-radius: 5%;
+}
+.col h4
+{
+    color: black;
+    text-align: center;
+}
+.col p
+{   font-family: 'Acme', sans-serif;
+    text-align: justify;
+    margin: 10px;
+    font-size: 16px;
+}
+form
+{   
+    width:700px;
+    height:500px;
+    margin-left: 24%;
+}
+.input
+{
+    width:100%;
+    margin: 10px;
+}
+button
+{
+    color: rgb(233, 81, 81);
+    background-color: black;
+   
+    border-radius: 10%;
+    
+}
+.cv
+{   box-shadow: 1px 1px 50px rgb(35, 105, 122);
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cv:hover{
+   box-shadow: 1px 1px 40px rgb(152, 59, 59);
+}
